@@ -1,0 +1,27 @@
+query GetJobs {
+  jobs {
+    commitment{
+      title
+    }
+    company {
+      name
+      logoUrl
+      websiteUrl
+    }
+    title
+    description
+    applyUrl
+    cities {
+      name
+      country {
+        name
+      }
+      
+    }
+    tags{
+      name
+      id
+      
+    }
+  }
+}
